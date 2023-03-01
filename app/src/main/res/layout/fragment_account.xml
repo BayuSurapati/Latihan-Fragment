@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru_muda"
+    tools:context=".fragment.AccountFragment">
+
+    <ImageView
+        android:id="@+id/akun_img"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/gambar_teknologi" />
+    <LinearLayout
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/header">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/foto"/>
+    </LinearLayout>
+</RelativeLayout>
